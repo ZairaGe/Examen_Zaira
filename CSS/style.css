@@ -9,13 +9,99 @@
     padding: 0;
 }
 
+body {
+    background-image: url("IMG/fondo2.jpg");
+    background-size: cover;
+}
+
 h1 {
-    font-family: street;
+    font-family: Street;
     color: crimson;
     font-size: 46px;
     text-align: center;
 }
 
 table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+thead {
+    background-image: url("IMG/fondocabecera.jpg");
+    font-family: Street;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 10px;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    font-family: Street;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.personaje {
+height: 100px;
+}
+
+.nombre {
+    font-family: Street;
+    color: darkorange;
+}
+
+#formulario {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+h2 {
+    font-family: Street;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+legend {
+    font-family: Street;
+    font-size: 14px;
+    color:rgb(237, 175, 5);
     
+}
+.separa {
+    display: inline-block;
+    width: 100%;
+}
+
+
+textarea {
+    width: 560px;
+    height: 200px;
+}
+
+.botones {
+    background-color: crimson;
+    border: 1px solid crimson;
+    font-family: Street;
+    font-size: 18px;
+    color:white;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
 }
